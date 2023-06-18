@@ -117,4 +117,34 @@ function handleWin(regions) {
   });
   const playerName = document.getElementById(turnPlayer).value;
   document.querySelector("h2").innerHTML = playerName + " venceu!";
+
+  boardRegions.forEach((element) => {
+    element.classList.remove("cursor-pointer");
+    element.removeEventListener("click", handleBoardClick);
+  });
+}
+
+document.getElementById("reset").addEventListener("click", reset);
+
+function reset() {
+  const player1 = document.getElementById("player1");
+  player1.value = "";
+
+  const player2 = document.getElementById("player2");
+  player2.value = "";
+
+  vBoard = [
+    ["", "", ""],
+    ["", "", ""],
+    ["", "", ""],
+  ];
+
+  turnPlayer = "";
+
+  boardRegions.forEach((element) => {
+    element.classList.remove("win");
+    element.innerText = "";
+    element.classList.add("cursor-pointer");
+    element.removeEventListener("click", handleBoardClick);
+  });
 }

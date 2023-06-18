@@ -1,5 +1,36 @@
 body {
   font-family: sans-serif;
+  text-align: center;
+  background-color: #232323;
+  color: green;
+}
+
+h1 {
+  color: green;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header input {
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  border: 1px solid #dedede;
+}
+
+.header button {
+  padding: 9px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  cursor: pointer;
+  color: green;
 }
 
 #gameBoard {
@@ -7,9 +38,10 @@ body {
   display: grid;
   grid-template-columns: 6rem 6rem 6rem;
   grid-template-rows: 6rem 6rem 6rem;
-  gap: 0.2rem;
+  gap: 0.1rem;
   margin-bottom: 1.5rem;
-  max-width: 18.4rem;
+  max-width: 18.2rem;
+  margin: auto;
 }
 
 #gameBoard span {
@@ -17,7 +49,7 @@ body {
   cursor: pointer;
   display: grid;
   place-content: center;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 #gameBoard span.win {
