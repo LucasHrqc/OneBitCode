@@ -1,0 +1,1 @@
+console.log('Estou sendo executado pelo npm graças a um atalho no package.json na propriedade scripts.')

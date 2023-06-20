@@ -1,0 +1,6 @@
+O comando NPX é usado para invocar os executáveis dos pacotes.
+
+Você consegue colocar um comando npx dentro dos scripts do package.json.
+O node entende o comando e executa esses scripts através do npm run comandoAqui.
+
+Assim é possível exercutar esses comandos com o npm run. Ex npm run dev no vuejs e npm run serve no frontend da ezbz.
