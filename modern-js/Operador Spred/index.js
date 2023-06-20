@@ -13,7 +13,7 @@ townsCopy.push("Blumenau");
 console.log(towns);
 console.log(townsCopy);
 
-const townsClone = [...towns];
+const townsClone = [...towns]; // Applies the copy properly
 townsClone.push("Navegantes");
 
 console.log(townsClone);
