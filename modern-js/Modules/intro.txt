@@ -1,0 +1,9 @@
+
+
+
+
+
+
+Os módulos são agrupamentos de códigos com funcionalidades distintas que podem ser compartilhados, adicionados  ou removidos de nossos software.
+
+Cada módulo tem sua única função para que possam ser reutilizados
