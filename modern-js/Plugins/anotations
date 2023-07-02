@@ -1,0 +1,8 @@
+O plugin 'mini-css-extract-plugin' é responsável pelo processamento dos arquivos CSS e geração de um único arquivo css extra na pasta dist quando 
+o 'npx webpack' for executado.
+
+Comandos: 
+npm install -D mini-css-extract-plugin (-D porque é uma dependência de desenvolvimento)
+
+Entra no webpack e adiciona o plugin: [new Plugin()]. 
+No lugar de style loader adiciona um método do plugin chamado loader.
