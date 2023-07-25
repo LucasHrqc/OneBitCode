@@ -2,15 +2,9 @@ const Installment = require("./Installment");
 
 module.exports = class Loan {
   static #interest = 1.05;
-  #fromUser;
-  #toUser;
-  #value;
-  #installments;
 
-  constructor(fromUser, toUser, value, installments) {
-    this.#fromUser = fromUser;
-    this.#toUser = toUser;
-    this.#value = value;
+  constructor(value, installments) {
+    this.value = value;
     this.installments = [];
     for (let i = 0; i < installments; i++) {
       this.installments.push(

@@ -1,0 +1,4 @@
+O throw new Error() gera um novo erro. Porém ele trava a aplicação quando executado sem TRY and CATCH.
+Para que a aplicação continue funcionando normalmente, o TRY e o CATCH devem ser implementados com as devidas ações para evitar que a aplicação pare.
+O catch(error) contém todas as informações do erro necessárias, inclusive o error.message que dispõe a mensagem do erro em sí.
+Existe também o finally, que sempre será executado depois do try, independente se erros existirem.

@@ -1,0 +1,14 @@
+Regex are used to deal with strings. Used to filter, replace, modify, manipulate and etc.
+There are "flags".
+i - insensitive, looks for both uppercase and lowercase strings.
+g - global, looks for all the occurrences of an expression.
+^ - Looks for the expression in the start of the string. (^testing)
+$ - Looks for the expression in the end of the string. (testing$)
+| - Works as OR, finding the expression before AND after the pipe (a|b).
++ - Looks for all the occurrences in sequence of the expression. (a+) Looks for all letter 'a' in sequence from a string.
+. - Any other character that follows the expression (a. in 'Testing an event', takes 'an').
+\ - Escape the expression to use special caracters ( \(..\) )
+\w - Used to find any alphanumeric character.
+\W - Is the inverse of \w, takes any non-alphanumeric character.
+\s - Finds spaces.
+\S - Finds anything that is not a space.

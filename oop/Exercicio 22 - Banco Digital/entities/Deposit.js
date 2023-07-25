@@ -1,10 +1,7 @@
 module.exports = class Deposit {
-  #to;
-  #value;
-  #createdAt;
-  constructor(to, value) {
-    this.#to = to;
-    this.#value = value;
-    this.#createdAt = new Date();
+  constructor(email, value) {
+    this.email = email;
+    this.value = value;
+    this.createdAt = new Date();
   }
 };
