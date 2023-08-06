@@ -10,5 +10,15 @@ $ - Looks for the expression in the end of the string. (testing$)
 \ - Escape the expression to use special caracters ( \(..\) )
 \w - Used to find any alphanumeric character.
 \W - Is the inverse of \w, takes any non-alphanumeric character.
+\d - Finds the numeric strings.
+\D - Finds everything but numeric strings.
 \s - Finds spaces.
 \S - Finds anything that is not a space.
+[] - Groups rules and apply all of them together. The result wil be a string that matches all the rules at the same time.
+[a-z] - Takes all strings from 'a' to 'z'.
+[A-Z] - Takes all uppercase strings from 'a' to 'z'.
+{} - Defines the interval of repeated strings to be used ('a{1,2}' in 'Testing aaat night' results in 'aa')
+(?=) - Positive lookahead. Looks for the expression if in front of the expression there is another expression. Ex: or(?=\s) looks for 'or' followed by a space after it.
+(?!) - Negative lookahead. Looks for the expression if not in front of the expression there is another expression. Ex: or(?!\s) looks for 'or' that are not followed by a space after it.
+(?<=) - Positive lookbehind. Looks for the expression preceeded by the second expression. Ex: (?<=k|p)or looks for 'or' preceeded by a 'k' or by a 'p'.
+(?<!) - Negative lookbehind. Looks for the expression if not preceeded by the second expression. Ex: (?<!k)or looks for 'or' that are not preceeded by a 'k'.
