@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Olá mundo!",
+      "content": "Lorem ipsum paoskasopksaopk",
+      "author": "Lucas"
+    },
+    {
+      "id": 2,
+      "title": "Requisições POST com javascript",
+      "content": "Lorem ipsum paoskasopksaopk",
+      "author": "Lucas"
+    },
+    {
+      "title": "Teste",
+      "author": "Lucas",
+      "content": "Vamos testar isso aqui",
+      "id": 3
+    }
+  ]
+}
