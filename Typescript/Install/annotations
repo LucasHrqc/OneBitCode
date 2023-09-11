@@ -1,0 +1,2 @@
+The script build is compiling the typescript.
+uncomment index.ts and run npm run build to compile the JS version and apply node index.js to execute it.
