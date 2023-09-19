@@ -1,0 +1,3 @@
+Interfaces são majoritariamente utilizadas para criar tipos para objetos.
+Funcionam da mesma maneira que o type.
+Com interface há algumas possibilidades extras e facilidades.
