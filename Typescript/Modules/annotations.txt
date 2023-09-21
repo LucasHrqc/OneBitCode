@@ -1,0 +1,5 @@
+Use the ES6 modules to export / import TS interfaces and types.
+TS doesn't allow to use commonjs
+
+Common JS: module.exports = name / const blabla = require(...);
+ES6 Modules é o export e import

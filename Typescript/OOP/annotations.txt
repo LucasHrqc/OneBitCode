@@ -1,0 +1,1 @@
+In TS, you must declare the constructor variables inside the class and give its type if not any.
