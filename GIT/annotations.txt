@@ -1,0 +1,7 @@
+Reescrever commit com algo que esqueceu
+
+git status
+git add .
+git commit --amend
+Muda a mensagem.
+
