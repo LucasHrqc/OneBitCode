@@ -1,0 +1,9 @@
+#login-text {
+    @include text-style(red, 16px, sans-serif);
+}
+
+.container {
+    p {
+        @include text-style(blue, 22px, sans-serif);
+    }
+}

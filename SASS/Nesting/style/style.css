@@ -1,0 +1,12 @@
+.classe1 ul {
+  background-color: orange;
+}
+.classe1 li {
+  background-color: green;
+}
+.classe1 li:hover {
+  background-color: red;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */
