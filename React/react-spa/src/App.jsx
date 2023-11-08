@@ -1,16 +1,11 @@
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import useCounter from './hooks/useCounter'
-
-// Regra 1: Onde usar os hooks. Somente utilizar dentro de funções que determinam componentes reacts, aqui não poderia ser usado.
-// Pode ser utilizado também um customHook
-
-// Regra 2: A ordem dos hooks.
-//          É necessário usar useState sempre no top level da função do componente React.
 
 function App() {
-  const counter = useCounter();
+  const [count, setCount] = useState(0)
+
   return (
     <>
       <div>
@@ -23,8 +18,8 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={counter.increment}>
-          count is {counter.count}
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
